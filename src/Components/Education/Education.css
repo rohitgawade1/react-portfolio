@@ -1,0 +1,11 @@
+.e-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-heading:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+}

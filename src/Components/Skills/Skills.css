@@ -1,0 +1,35 @@
+.skill-card{
+    /* height: 3rem;
+    width: 4rem; */
+
+    background:linear-gradient(orange, rgb(255, 119, 0));
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: black;
+
+}
+
+.skills{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 5rem;
+    padding: 0 10rem;
+    margin: 2rem 5rem;
+}
+
+.e-heading{
+    margin-bottom: 5rem;
+}
+
+.skills-container{
+    margin-top: 4rem;
+}
+.skill-card:hover{
+    cursor: pointer;
+}

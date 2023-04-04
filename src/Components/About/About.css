@@ -1,0 +1,62 @@
+.About{
+    padding: .5rem 3rem;
+}
+
+.a-top{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.a-name{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.a-name>:nth-child(2){
+    color: orange;
+}
+
+.a-span{
+    color: orange;
+}
+
+.about-desc-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.a-bottom-top{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.a-bottom{
+    padding: 0 8rem;
+}
+
+.card{
+    height: 10rem;
+    width: 10rem;
+    border: 3px solid orange;
+    display: flex;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.a-bottom-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

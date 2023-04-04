@@ -1,0 +1,53 @@
+.i-container{
+    display: flex;
+    height: 90vh;
+    padding: .5rem 3rem;
+    align-items: center;
+
+}
+
+.i-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 15rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.i-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* background: url('../../Images/boy.jpg'); */
+}
+
+.i-right img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+}
+
+.i-name>:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.i-name>:nth-child(2){
+    font-size: 3rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.i-name>:nth-child(3){
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: .5rem;
+}

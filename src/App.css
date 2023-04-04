@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1f242d;
+  /* background-color: #323946; */
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar{
+  width: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.App{
+  /* padding: .5rem 3.5rem;/ */
+  overflow: hidden;
+}
+
+.button{
+  background: linear-gradient(orange, rgba(255, 132, 0, 0.947));
+  /* background-color: orange; */
+  /* color: rgba(255, 255, 255, 0.734); */
+  color: #1f242d;
+  border-radius: 1rem;
+  padding: 8px 16px;
+  font-size:1rem;
+  border: none;
+  font-weight: bold;
+  /* box-shadow: 0px 0px 4px 1px orange; */
+}
+
+.button:hover{
+  cursor: pointer;
+  background: #1f242d;
+  color: orange;
+  border: 2px solid orange;
+}
+
+hr{
+  color: white;
+  width: 50rem;
+  margin: 1rem 0;
+}
+
+.education{
+  margin-top: 5rem;
+  padding: 0 5rem;
+}
+
+.e-circle{
+  height: 3rem;
+  width: 3rem;
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #1f242d;
+  margin-right: 1rem;
+}
+
+.e-year{
+  height: 1rem;
+  width: 2rem;
+  padding: .3rem 1rem;
+  background-color: rgba(128, 128, 128, 0.339);
+  border-radius: 2rem;
+}
+
+.e-degree-container{
+  display: flex;
+}
+
+.e-circle-right-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1rem;
+  width: 12rem;
+  /* border: 1px solid red; */
+  
 }
 
-.App-link {
-  color: #61dafb;
+.e-circle-right-container>:nth-child(2){
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.first-container-education{
+  display: flex;
+  justify-content: space-between;
+  margin:5rem 0;
+  /* gap: 3rem; */
+}
+
+.e-desc{
+  margin: 2rem 0;
+  padding: 0 10rem;
 }
