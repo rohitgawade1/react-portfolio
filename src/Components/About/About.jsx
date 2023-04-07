@@ -41,7 +41,7 @@ const About = () => {
         </div>
         <div className="a-bottom-bottom">
           <div className="list-btn">
-            <button className="button">See the project list</button>
+            <a href="https://list-rho.vercel.app/" target="_blank" className="button">See the project list</a>
           </div>
           <div className="card">
             <span>10+</span>
