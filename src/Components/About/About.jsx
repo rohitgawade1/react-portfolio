@@ -34,7 +34,7 @@ const About = () => {
             </span>
           </div>
           <div className="dw-resume-btn">
-            <a href="https://drive.google.com/file/d/1cuOWDw1S62yXu1TUtvBlAyFsyhrJvl44/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href="https://docs.google.com/document/d/1pG4ch4A0voupL-4mNhRP3dgRAPKDq0dp0v3txe8XzKk/edit?usp=sharing" target="_blank" rel="noreferrer">
               <button className="button">Download Resume</button>
             </a>
           </div>
