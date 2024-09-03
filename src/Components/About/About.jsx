@@ -1,6 +1,10 @@
 import React from "react";
 import "./About.css";
 
+const handleDownloadButton = () => {
+    window.open('Assets/img/MyResume.pdf')
+}
+
 const About = () => {
   return (
     <div className="About" id="about">
@@ -34,9 +38,10 @@ const About = () => {
             </span>
           </div>
           <div className="dw-resume-btn">
-            <a href="https://docs.google.com/document/d/1pG4ch4A0voupL-4mNhRP3dgRAPKDq0dp0v3txe8XzKk/edit?usp=sharing" target="_blank" rel="noreferrer">
-              <button className="button">Download Resume</button>
-            </a>
+            {/* <a href="https://docs.google.com/document/d/1pG4ch4A0voupL-4mNhRP3dgRAPKDq0dp0v3txe8XzKk/edit?usp=sharing" target="_blank" rel="noreferrer"> */}
+            
+              <button className="button" onClick={handleDownloadButton}>Download Resume</button>
+            {/* </a> */}
           </div>
         </div>
         <div className="a-bottom-bottom">
